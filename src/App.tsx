@@ -10,7 +10,7 @@ function App() {
   if (isLoading) {
     return <div>Carregando...</div>;
   }
-
+ 
   if (isError) {
     return <div>Erro ao carregar os personagens.</div>;
   }
